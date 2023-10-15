@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     
-    [SerializeField] GameObject continueButton, playButton, resetButton;
+    [SerializeField] GameObject continueButton, playButton, resetButton, resetPanel;
 
     void Start()
     {
@@ -20,7 +20,18 @@ public class MainMenu : MonoBehaviour
     
     public void ShowResetProgressPanel()
     {
+        resetPanel.SetActive(true);
+    }
 
+    public void ResetAndPlay()
+    {
+        LevelPersistency.instance.ResetProgress();
+        Play();
+    }
+
+    public void CloseResetPanel()
+    {
+        resetPanel.SetActive(false);
     }
 
     public void Play()
