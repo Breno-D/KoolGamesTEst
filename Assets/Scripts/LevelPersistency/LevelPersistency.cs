@@ -19,6 +19,7 @@ public class LevelPersistency : MonoBehaviour
     }
     #endregion
 
+
     public int GetCurrentLevel()
     {
         return PlayerPrefs.GetInt("levelSaved");
