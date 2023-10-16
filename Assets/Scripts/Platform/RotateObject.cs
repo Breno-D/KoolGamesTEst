@@ -6,12 +6,19 @@ public class RotateObject : MonoBehaviour
 {
     bool canRotate = true;
     [SerializeField] float rotationSpeed = 30f;
+    LevelManager levelManager;
+
+    void Start()
+    {
+        levelManager = FindObjectOfType<LevelManager>();
+    }
 
     void OnMouseDown()
     {
         if(canRotate)
         {
             canRotate = false;
+            levelManager.canDetectSpheres = false;
             StartCoroutine(RotateCoroutine());
         }
     }
@@ -25,6 +32,7 @@ public class RotateObject : MonoBehaviour
             timeToWait -= Time.deltaTime;
             yield return null;
         }
+        levelManager.canDetectSpheres = true;
         yield return new WaitForSeconds(0.5f);
         canRotate = true;
     }
