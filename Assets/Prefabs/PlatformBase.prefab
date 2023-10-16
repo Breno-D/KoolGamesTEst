@@ -44,7 +44,8 @@ GameObject:
   - component: {fileID: 4381131887081222188}
   - component: {fileID: 8111210156475884360}
   - component: {fileID: 5809572171383974067}
-  m_Layer: 0
+  - component: {fileID: 4247302293008435232}
+  m_Layer: 3
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +95,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -129,6 +130,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &4247302293008435232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441503096463753416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1589892989647507108
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +221,8 @@ GameObject:
   - component: {fileID: 2063474470799980493}
   - component: {fileID: 7852682933765495622}
   - component: {fileID: 7749773996080154624}
-  m_Layer: 0
+  - component: {fileID: 7811850704371801216}
+  m_Layer: 3
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +236,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3106187093128484888}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
   m_ConstrainProportionsScale: 0
@@ -255,7 +272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -290,6 +307,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &7811850704371801216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106187093128484888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &4433839741972491765
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +334,8 @@ GameObject:
   - component: {fileID: 7871867291213778383}
   - component: {fileID: 7865414917498868444}
   - component: {fileID: 5068914541976352218}
-  m_Layer: 0
+  - component: {fileID: 2994654638139856596}
+  m_Layer: 3
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +385,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -387,6 +420,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &2994654638139856596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433839741972491765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &5246384541408694144
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +447,8 @@ GameObject:
   - component: {fileID: 4691393113504252546}
   - component: {fileID: 7035586878691009494}
   - component: {fileID: 7686733056950823864}
-  m_Layer: 0
+  - component: {fileID: 6492553840771810682}
+  m_Layer: 3
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +498,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -484,6 +533,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &6492553840771810682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246384541408694144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &6429725903330971422
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +592,8 @@ GameObject:
   - component: {fileID: 6332962883102883647}
   - component: {fileID: 8637236309840232871}
   - component: {fileID: 2859497722701497482}
-  m_Layer: 0
+  - component: {fileID: 8772881920035706246}
+  m_Layer: 3
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +643,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -613,6 +678,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &8772881920035706246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665960347991512589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &6739451901563391390
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +705,8 @@ GameObject:
   - component: {fileID: 2143134693542504242}
   - component: {fileID: 3170715025736612605}
   - component: {fileID: 4306781251230020039}
-  m_Layer: 0
+  - component: {fileID: 3428005294157978565}
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6739451901563391390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00044}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -675,7 +756,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 130f9bfdd2297704aa0291c0a0606877, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -710,6 +791,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.000000029802322, y: 0, z: -0.000000059604645}
+--- !u!114 &3428005294157978565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6739451901563391390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d201c48022494397766596304293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &6902774749894846260
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +883,7 @@ GameObject:
   - component: {fileID: 7017121147834178601}
   - component: {fileID: 243713661796889437}
   - component: {fileID: 4780289643312306512}
+  - component: {fileID: 5301220607455991321}
   m_Layer: 0
   m_Name: PlatformBase
   m_TagString: Untagged
@@ -801,7 +898,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8818381159133494780}
-  m_LocalRotation: {x: 0.2588191, y: 0.9659258, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.25595242, y: -1.0248477, z: -0.76748896}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
@@ -814,7 +911,7 @@ Transform:
   - {fileID: 1028482238129977954}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 30}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5081509298041350371
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -893,3 +990,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 30
+--- !u!114 &5301220607455991321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818381159133494780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36ad2e8c8b0d8049b3dcb90acb6ca0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coloredSpheres:
+  - {fileID: 6739451901563391390}
+  - {fileID: 3106187093128484888}
+  - {fileID: 6665960347991512589}
+  - {fileID: 1441503096463753416}
+  - {fileID: 4433839741972491765}
+  - {fileID: 5246384541408694144}
+  assignedColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.06607056, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.9815198, b: 0, a: 1}
+  - {r: 1, g: 0.46568146, b: 0, a: 1}
+  - {r: 0, g: 0.8881693, b: 1, a: 1}
+  - {r: 0.09451604, g: 1, b: 0, a: 1}
