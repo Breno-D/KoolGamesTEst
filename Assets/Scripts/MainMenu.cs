@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         if(LevelPersistency.instance.GetCurrentLevel()!=0)
         {
             continueButton.SetActive(true);

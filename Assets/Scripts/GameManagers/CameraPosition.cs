@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraPosition : MonoBehaviour
 {
-    [SerializeField] GameObject camera2Platforms, camera4Platforms, camera6Platforms;
+    [SerializeField] GameObject camera2Platforms, camera4Platforms;
     public void AdjustCameraCentralPoint(List<Vector3> platformPositions)
     {
         float sumX = 0;
@@ -29,11 +29,6 @@ public class CameraPosition : MonoBehaviour
         if(platformsOnLevel==4)
         {
             camera4Platforms.SetActive(true);
-            camera2Platforms.SetActive(false);
-        }
-        else if(platformsOnLevel==6)
-        {
-            camera6Platforms.SetActive(true);
             camera2Platforms.SetActive(false);
         }
     }

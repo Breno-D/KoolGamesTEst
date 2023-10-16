@@ -82,7 +82,8 @@ public class LevelManager : MonoBehaviour
     int GenerateNumberOfPlatforms()
     {
         int chance = Random.Range(0,101);
-        if(chance<=40)
+        currentLevel = LevelPersistency.instance.GetCurrentLevel();
+        if(chance<=40 || currentLevel == 0)
         {
             return 2;
         }
