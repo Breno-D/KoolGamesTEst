@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 243713661796889437}
   - component: {fileID: 4780289643312306512}
   - component: {fileID: 5301220607455991321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatformBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,10 +1009,6 @@ MonoBehaviour:
   - {fileID: 1441503096463753416}
   - {fileID: 4433839741972491765}
   - {fileID: 5246384541408694144}
-  assignedColors:
-  - {r: 1, g: 0, b: 0, a: 1}
-  - {r: 0.06607056, g: 0, b: 1, a: 1}
-  - {r: 1, g: 0.9815198, b: 0, a: 1}
-  - {r: 1, g: 0.46568146, b: 0, a: 1}
-  - {r: 0, g: 0.8881693, b: 1, a: 1}
-  - {r: 0.09451604, g: 1, b: 0, a: 1}
+  platformMask:
+    serializedVersion: 2
+    m_Bits: 64

@@ -25,11 +25,12 @@ public class LevelPersistency : MonoBehaviour
         return PlayerPrefs.GetInt("levelSaved");
     }
     
-    public void UpdateLevel(int levelToSave)
+    public void UpdateLevel()
     {
+        int levelToSave = GetCurrentLevel()+1;
         PlayerPrefs.SetInt("levelSaved", levelToSave);
     }
-
+    
     public void ResetProgress()
     {
         PlayerPrefs.SetInt("levelSaved", 0);
